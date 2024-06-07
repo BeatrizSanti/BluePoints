@@ -40,7 +40,9 @@ src > main > java > br.com.fiap.bluePoint
 e executar o arquivo bluePointApplication.Java
 O projeto estará fluindo a partir dai!
 
-[video do funcionamento do projeto]()
+[video do funcionamento do projeto](https://www.youtube.com/watch?v=nW9KG-lyNZM)
+
+[video do funcionamento do projeto 2](https://www.youtube.com/watch?v=FpqfzviS82A)
 
 Agora basta entrar na aplicação de mobile e fazer com que rode de forma web
 assim que rodar de forma web, a aplicação estará pronta para os demias testes
@@ -54,7 +56,7 @@ descritos no repositório de [Mobile]()
 
 ## Diagrama do projeto Java
 
-![diagrama1.jpg](documentacao%2Fdiagramas%2Fdiagrama_do_projeto.png)
+![diagrama1.jpg](documentacao%2Fdiagrama%2Fdiagrama-bluepoints.png)
 
 ## Diagrama de classe
 ![diagrama2.jpg](documentacao%2Fdiagrama%2Fdiagrama-de-classe.png)
@@ -79,8 +81,8 @@ Java é responsável por gerênciar o banco de dados. A princípio, nosso aplica
 
 <a id="_Explicacoes"></a>
 
-# 5 - Explicações de classes
-## 5.1. Foto
+# 5 - Explicações de classes0
+## 5.1. [Foto](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FFoto.java)
 Classe responsável por armazenar o camimho src de toda imagem passada a Java.
 
 ### src
@@ -88,7 +90,7 @@ camimnho onde a imagem desejada se encontra.
 
 
 
-## 5.2. Pessoa
+## 5.2. [Pessoa](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FPessoa.java)
 Classe responsável por armazenar os aspetos das pessoas que utilizarão nosso aplicativo
 
 ### Nome
@@ -102,7 +104,7 @@ A quantidade de pontos que a pessoa tem armazenado.
 
 
 
-## 5.3. Usuario
+## 5.3. [Usuario](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FUsuario.java)
 ### Email
 Deve ser unico e composto no formato padrão de emails (desc@dominio.com). Esta classse conta com um UK para evitar de ter um mesmo email para mais de um usuário.
 
@@ -114,7 +116,7 @@ Herdará os atributos cadastrados de uma pessoa. Nesta classe, existe uma UK res
 
 
 
-## 5.4. Reciclagem
+## 5.4. [Reciclagem](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FReciclagem.java)
 
 ### Momento
 Momento em que a reciclagem foi adicionada ao banco.
