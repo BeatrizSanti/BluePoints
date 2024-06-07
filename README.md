@@ -47,7 +47,8 @@ Aplicação em desenvolvimento desde 27/05/2024*
 # 2 - Nossa proposta
 [Vídeo Picht](https://www.youtube.com/watch?v=mFvFRHsU8Xg)
 <br>
-** Verificar o [Documento explicativo](documentacao%2Fequipe.txt)
+** Verificar o [Documento explicativo](documentacao%2BluePoints.pdf)
+<br>
 Nosso projeto se trata do uso de um aplicativo para pontuar e premiar pessoas que estão auxiliando na recolha de lixo nas praias.
 A identificação é feita com uma IA criada em python por nós para distinguir diferentes tipos de lixo e pontuar de maneiras diferentes cada um deles.
 Nosso App é criado em React Native e faz consumo de Java e da IA como API. Quanto a .NET faz um site para controle dos prêmios (nome e custo).
