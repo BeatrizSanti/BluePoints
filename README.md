@@ -1,8 +1,17 @@
 # BLUE POINT 🔵
 ***Recicle nossos oceanos, você ganha, eu ganho, o mar ganha***
 
+
+<div>
+<img align="center" alt="logo1" height=30%  width=30% src="documentacao/diagrama/BluePointsLogo.png" />
+<img align="center" alt="logo" height=30%  width=30% src="documentacao/diagrama/BluePointsLogo2.png" />
+</div>
+
+
+
+
 Aplicação em desenvolvimento desde 28/03/2024*
-### [Link para o GIT](https://github.com/MatheusFelipeCamarinhaDuarte/BluePoints)
+### [Link para o GIT](https://github.com/BeatrizSanti/BluePoints.git)
 
 
 
@@ -10,15 +19,17 @@ Aplicação em desenvolvimento desde 28/03/2024*
 
 [1 - Integrantes](#_Integrantes)
 
-[2 - Instruções de como rodar a aplicação](#_Instruicoes)
+[2 - Explicações de classes](#_Explicacoes)
 
-[3 - Diagramas](#_Diagramas)
+[3 - Instruções de como rodar a aplicação](#_Instrucoes)
 
-[4 - Nossa proposta em vídeo PITCH](#_Picth)
+[4 - Docker Compose](#__DockerCompose)
 
-[5 - Explicações de classes](#_Explicacoes)
+[5 - Diagramas](#_Diagramas)
 
-[6 - Endpoints](#_Endpoint)
+[6 - Nossa proposta em vídeo PITCH](#_Picth)
+
+[7 - Endpoints](#_Endpoint)
 
 
 <a id="_Integrantes"></a>
@@ -31,9 +42,22 @@ Aplicação em desenvolvimento desde 28/03/2024*
     RM: 99708  Turma: 2TDSPW Nome: Gabriel Francisco Lobo
 ** Verificar o [txt da equipe](documentacao%2Fequipe.txt) para consultar pontos extras.
 
-<a id="_Instruicoes"></a>
+<a id="_Picth"></a>
 
-# 2 - Instrucoes de como rodar a aplicação
+# 2 - Nossa proposta
+[Vídeo Picht]()
+<br>
+[Documento Explicativo](https://www.canva.com/design/DAGG7Nptkhk/GrACLhHNj7Ad7RDLW14HyQ/edit?utm_content=DAGG7Nptkhk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+Nosso projeto se trata do uso de um aplicativo para pontuar e premiar pessoas que estão auxiliando na recolha de lixo nas praias.
+A identificação é feita com uma IA criada em python por nós para distinguir diferentes tipos de lixo e pontuar de maneiras diferentes cada um deles.
+Nosso App é criado em React Native e faz consumo de Java e da IA como API. Quanto a .NET faz um site para controle dos prêmios (nome e custo).
+Java é responsável por gerênciar o banco de dados. A princípio, nosso aplicativo não fará o controle de premios via banco de dados nem dos locais onde irão ocorrer os eventos.
+
+
+<a id="_Instrucoes"></a>
+
+# 3 - Instrucoes de como rodar a aplicação
 Enrtar em:
 
 src > main > java > br.com.fiap.bluePoint
@@ -51,8 +75,9 @@ descritos no repositório de [Mobile]()
 
 
 
-<a id="_Docker Compose"></a>
-# 3 - Docker Compose
+<a id="_DockerCompose"></a>
+
+# 4 - Docker Compose
 
 ## Pré-requisitos
 
@@ -83,9 +108,12 @@ Para rodar o projeto em docker compose:
 
 
 
+
+
+
 <a id="_Diagramas"></a>
 
-# 4 - Diagramas
+# 5 - Diagramas
 
 ## Diagrama do projeto Java
 
@@ -103,18 +131,8 @@ Para rodar o projeto em docker compose:
 
 <a id="_Picth"></a>
 
-# 5 - Nossa proposta
-[LINK]()
 
-Nosso projeto se trata do uso de um aplicativo para pontuar e premiar pessoas que estão auxiliando na recolha de lixo nas praias.
-A identificação é feita com uma IA criada em python por nós para distinguir diferentes tipos de lixo e pontuar de maneiras diferentes cada um deles.
-Nosso App é criado em React Native e faz consumo de Java e da IA como API. Quanto a .NET faz um site para controle dos prêmios (nome e custo).
-Java é responsável por gerênciar o banco de dados. A princípio, nosso aplicativo não fará o controle de premios via banco de dados nem dos locais onde irão ocorrer os eventos.
-
-
-<a id="_Explicacoes"></a>
-
-# 6 - Explicações de classes0
+# 6 - Explicações de classes
 ## 6.1. [Foto](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FFoto.java)
 Classe responsável por armazenar o camimho src de toda imagem passada a Java.
 
@@ -154,7 +172,7 @@ Herdará os atributos cadastrados de uma pessoa. Nesta classe, existe uma UK res
 ### Momento
 Momento em que a reciclagem foi adicionada ao banco.
 
-### Usuário
+### Usuario
 O usuário que adicionou ela ao sistema será anexado a ela
 
 ### Pontos
@@ -198,5 +216,3 @@ Data do encerramento do evento
 [LINK SWAGGER](http://localhost/swagger-ui/index.html)
 
 Para melhor vizualização dos endpoins, recomendamos inicializar o projeto e posteriormente entrar no link acima
-
-
