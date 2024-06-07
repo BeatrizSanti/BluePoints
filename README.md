@@ -45,7 +45,7 @@ Aplicação em desenvolvimento desde 27/05/2024*
 <a id="_Picth"></a>
 
 # 2 - Nossa proposta
-[Vídeo Picht](https://www.youtube.com/watch?v=mFvFRHsU8Xg)
+[Vídeo Picht](https://youtu.be/mFvFRHsU8Xg?si=P_9WpOjzJNJ6lnDd )
 <br>
 ** Verificar o [Documento explicativo](documentacao/BluePoints.pdf)
 <br>
