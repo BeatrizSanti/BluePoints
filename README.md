@@ -19,11 +19,11 @@ Aplicação em desenvolvimento desde 27/05/2024*
 
 [1 - Integrantes](#_Integrantes)
 
-[2 - Explicações de classes](#_Explicacoes)
+[2 - Nossa Proposta e Vídeo Pitch](#_NossaProposta)
 
 [3 - Instruções de como rodar a aplicação](#_Instrucoes)
 
-[4 - Docker Compose](#__DockerCompose)
+[4 - Docker Compose](#_DockerCompose)
 
 [5 - Diagramas](#_Diagramas)
 
@@ -42,7 +42,7 @@ Aplicação em desenvolvimento desde 27/05/2024*
     RM: 99708  Turma: 2TDSPW Nome: Gabriel Francisco Lobo
 ** Verificar o [txt da equipe](documentacao%2Fequipe.txt) para consultar pontos extras.
 
-<a id="_Picth"></a>
+<a id="_NossaProposta"></a>
 
 # 2 - Nossa proposta
 [Vídeo Picht](https://youtu.be/mFvFRHsU8Xg?si=P_9WpOjzJNJ6lnDd )
