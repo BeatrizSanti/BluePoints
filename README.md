@@ -1,5 +1,5 @@
 # BLUE POINTS 🔵
-***Recicle nossos oceanos, você ganha, eu ganho, o mar ganha***
+***Crie oceanos de possibilidades***
 
 
 <div>
