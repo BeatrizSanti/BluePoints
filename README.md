@@ -10,7 +10,7 @@
 
 
 
-Aplicação em desenvolvimento desde 28/03/2024*
+Aplicação em desenvolvimento desde 27/05/2024*
 ### [Link para o GIT](https://github.com/BeatrizSanti/BluePoints.git)
 
 
@@ -45,7 +45,7 @@ Aplicação em desenvolvimento desde 28/03/2024*
 <a id="_Picth"></a>
 
 # 2 - Nossa proposta
-[Vídeo Picht]()
+[Vídeo Picht](https://www.youtube.com/watch?v=mFvFRHsU8Xg)
 <br>
 ** Verificar o [Documento explicativo](documentacao%2Fequipe.txt)
 Nosso projeto se trata do uso de um aplicativo para pontuar e premiar pessoas que estão auxiliando na recolha de lixo nas praias.
@@ -63,9 +63,9 @@ src > main > java > br.com.fiap.bluePoint
 e executar o arquivo bluePointApplication.Java
 O projeto estará fluindo a partir dai!
 
-[video do funcionamento do projeto](https://www.youtube.com/watch?v=nW9KG-lyNZM)
+[video do funcionamento do projeto java](https://www.youtube.com/watch?v=nW9KG-lyNZM)
 
-[video do funcionamento do projeto 2](https://www.youtube.com/watch?v=FpqfzviS82A)
+[video do funcionamento do projeto java 2](https://www.youtube.com/watch?v=FpqfzviS82A)
 
 Agora basta entrar na aplicação de mobile e fazer com que rode de forma web
 assim que rodar de forma web, a aplicação estará pronta para os demias testes
@@ -77,6 +77,8 @@ descritos no repositório de [Mobile]()
 <a id="_DockerCompose"></a>
 
 # 4 - Docker Compose
+
+[Vídeo do funcionamento do docker compose](https://www.youtube.com/watch?v=wRxSx0cyd58)
 
 ## Pré-requisitos
 
