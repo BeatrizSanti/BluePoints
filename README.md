@@ -27,7 +27,7 @@ Aplicação em desenvolvimento desde 27/05/2024*
 
 [5 - Diagramas](#_Diagramas)
 
-[6 - Nossa proposta em vídeo PITCH](#_Picth)
+[6 - Explicações de classes](#_Explicaçõesdeclasses)
 
 [7 - Endpoints](#_Endpoint)
 
@@ -131,7 +131,7 @@ Para rodar o projeto em docker compose:
 ![diagrama4.jpg](documentacao%2Fdiagrama%2FTOGAF.jpg)
 
 
-<a id="_Picth"></a>
+<a id="_Explicaçõesdeclasses"></a>
 
 
 # 6 - Explicações de classes
