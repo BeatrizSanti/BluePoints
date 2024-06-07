@@ -50,9 +50,42 @@ descritos no repositório de [Mobile]()
 
 
 
+
+<a id="_Docker Compose"></a>
+# 3 - Docker Compose
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter o seguinte software instalado no seu computador:
+
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+Para rodar o projeto em docker compose:
+### 1. Clone o Repositório
+`git clone https://github.com/BeatrizSanti/BluePoints.git`
+
+### 2. Entre no diretório do projeto clonado
+`cd C:\BluePoints`
+
+### 3. Iniciae os Contêineres em segundo plano
+`docker-compose up --build -d`
+
+### 4. Verifique os Contêineres em Execução
+`docker-compose ps`
+
+### 5. Pare os Contêineres
+`docker-compose down`
+
+### 6. Limpe seu sistema Docker
+`docker system prune -a -f --volume`
+
+
+
 <a id="_Diagramas"></a>
 
-# 3 - Diagramas
+# 4 - Diagramas
 
 ## Diagrama do projeto Java
 
@@ -70,7 +103,7 @@ descritos no repositório de [Mobile]()
 
 <a id="_Picth"></a>
 
-# 4 - Nossa proposta
+# 5 - Nossa proposta
 [LINK]()
 
 Nosso projeto se trata do uso de um aplicativo para pontuar e premiar pessoas que estão auxiliando na recolha de lixo nas praias.
@@ -81,8 +114,8 @@ Java é responsável por gerênciar o banco de dados. A princípio, nosso aplica
 
 <a id="_Explicacoes"></a>
 
-# 5 - Explicações de classes0
-## 5.1. [Foto](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FFoto.java)
+# 6 - Explicações de classes0
+## 6.1. [Foto](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FFoto.java)
 Classe responsável por armazenar o camimho src de toda imagem passada a Java.
 
 ### src
@@ -90,7 +123,7 @@ camimnho onde a imagem desejada se encontra.
 
 
 
-## 5.2. [Pessoa](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FPessoa.java)
+## 6.2. [Pessoa](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FPessoa.java)
 Classe responsável por armazenar os aspetos das pessoas que utilizarão nosso aplicativo
 
 ### Nome
@@ -104,7 +137,7 @@ A quantidade de pontos que a pessoa tem armazenado.
 
 
 
-## 5.3. [Usuario](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FUsuario.java)
+## 6.3. [Usuario](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FUsuario.java)
 ### Email
 Deve ser unico e composto no formato padrão de emails (desc@dominio.com). Esta classse conta com um UK para evitar de ter um mesmo email para mais de um usuário.
 
@@ -116,12 +149,12 @@ Herdará os atributos cadastrados de uma pessoa. Nesta classe, existe uma UK res
 
 
 
-## 5.4. [Reciclagem](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FReciclagem.java)
+## 6.4. [Reciclagem](src%2Fmain%2Fjava%2Fbr%2Fcom%2Ffiap%2Fbluepoints%2Fdomain%2Fentity%2FReciclagem.java)
 
 ### Momento
 Momento em que a reciclagem foi adicionada ao banco.
 
-### Usuario
+### Usuário
 O usuário que adicionou ela ao sistema será anexado a ela
 
 ### Pontos
@@ -160,8 +193,10 @@ Data do encerramento do evento
 
 <a id="_Endpoint"></a>
 
-# 6 -  Endpoints
+# 7 -  Endpoints
 
 [LINK SWAGGER](http://localhost/swagger-ui/index.html)
 
 Para melhor vizualização dos endpoins, recomendamos inicializar o projeto e posteriormente entrar no link acima
+
+
